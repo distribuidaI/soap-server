@@ -12,9 +12,7 @@ public class PlayerWebService implements PlayerService {
 
 	private ArrayList<Player> players = new java.util.ArrayList<>();
 
-    public PlayerWebService() {
-        super();
-    }
+    public PlayerWebService() {}
 
     @Override
 	public void addPlayer(Player player) {
